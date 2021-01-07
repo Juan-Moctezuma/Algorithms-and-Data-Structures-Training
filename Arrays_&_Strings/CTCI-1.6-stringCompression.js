@@ -16,7 +16,7 @@
 */
 
 let stringCompression = (str1) => {
-    let i;
+    let i; // Hoisting
     let len = str1.length;
     let outcome = '';
     let count = 1;
