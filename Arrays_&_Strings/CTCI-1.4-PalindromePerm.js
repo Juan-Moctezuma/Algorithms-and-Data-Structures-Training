@@ -21,7 +21,7 @@
 */
 
 let palindromePerm = str => {
-    let hash = {};
+    let hash = {}; // In JS all objects are Hash Tables
     let len = str.length
     let charCount = 0;
   
