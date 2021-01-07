@@ -30,7 +30,7 @@
 */ 
 
 let checkEdit = (str1, str2) => {
-    let i, j;
+    let i, j; // Hoisting
     let edits = 1;
     let maxLen = Math.max(str1.length, str2.length);
     let diff = Math.abs(str1.length - str2.length);
