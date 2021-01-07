@@ -12,7 +12,7 @@
 */
 
 let zeroMatrix = (arr) => {
-    let i, j;
+    let i, j; // Hoisting
     let N = arr.length;
 
     // Mark zero locations as true
