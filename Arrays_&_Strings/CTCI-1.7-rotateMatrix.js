@@ -12,7 +12,7 @@
 */
 
 let rotateMatrixClockWise = (arr) => {
-    let i, j;
+    let i, j; // Hoisting
     let N = arr.length;
     // Inner layer - for loop will traverse or iterate diagonally... so HALF matrix's bound is n-size * 1/2
     // Outer layer - for loop goes diagonally so j = i (because for example (0,0),(1,1))... (N - 1) - i is outer bound
@@ -43,7 +43,7 @@ console.log(rotateMatrixClockWise(arr));
 
 /* Counter ClockWise */
 let rotateMatrixAntiClockWise = (arr) => {
-    let i, j;
+    let i, j; // Hoisting
     let N = arr.length;
 
     for(i = 0; i < N / 2; i++){
