@@ -3,7 +3,7 @@
     You may assume that the string has sufficient space at the end to hold 
     additional characters, & that you are given the "true" length of the string.
 
-    * Input: 'Mr John Smith '
+    * Input: 'Mr John Smith ', 13
     * Output: 'Mr%20John%20Smith'
     * Constraint: NA
     * Edge Case: empty strings or white space within string
