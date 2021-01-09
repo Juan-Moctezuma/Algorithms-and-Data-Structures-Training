@@ -14,7 +14,7 @@
 */
 
 let urlReplace = (str1, trueLength) => {
-    let i, spaces; // Hoisting
+    let i, spaces, character; // Hoisting
     let len = str1.length;
     let output = ''; // Initialize empty string
     let chars_count = 0;
